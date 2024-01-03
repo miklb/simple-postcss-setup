@@ -1,4 +1,4 @@
 /*! 
   CSS is cool.
-*/
-*,:before,:after{box-sizing:border-box}html{--orange:#ffa31f;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}@supports (color:lab(0% 0 0)){html{--orange:lab(75.3031% 35.2545 94.8166)}}body{margin:0}main{place-items:center;height:100dvh;display:grid}.box{border:3px solid var(--orange);border-radius:12px;inline-size:max(80%,30vw);overflow:clip}.box header{background:var(--orange);color:#fff;padding:.5lh 1lh}.box header h3{margin:0}.box .box-content{padding:2lh}
+*/*,:after,:before{box-sizing:border-box}html{--orange:#ffa31f;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}@supports (color:color(display-p3 0 0 0)){html{--orange:#ffa31f}@media (color-gamut:p3){html{--orange:color(display-p3 0.9864 0.63848 0.12345)}}}body{margin:0}main{align-items:center;display:grid;height:100dvh;justify-items:center;place-items:center}.box{border:3px solid #ffa31f;border:3px solid color(display-p3 .9864 .63848 .12345);border:3px solid var(--orange);border-radius:12px;overflow:clip;width:max(80%,30vw)}.box header{background:#ffa31f;background:color(display-p3 .9864 .63848 .12345);background:var(--orange);color:#fff;padding:.5lh 1lh}.box header h3{margin:0}.box .box-content{padding:2lh}
+/*# sourceMappingURL=style.css.map */

@@ -1,16 +1,17 @@
 {
-  "name": "lightning-css-example-project",
-  "version": "1.0.0",
-  "description": "example project using lightning css",
-  "author": "chriscoyier",
-  "license": "MIT",
-  "devDependencies": {
-    "lightningcss": "^1.22.0",
-    "lightningcss-cli": "^1.22.0",
-    "turbowatch": "^2.29.4"
-  },
-  "scripts": {
-    "dev": "turbowatch ./turbowatch.ts",
-    "process": "lightningcss --minify --bundle --targets 'defaults' css/index.css -o style.css"
-  }
+    "name": "postcss-example-project",
+    "version": "1.0.0",
+    "description": "example project using PostCSS",
+    "author": "Michael Bishop",
+    "license": "MIT",
+    "devDependencies": {
+        "cssnano": "^6.0.2",
+        "postcss": "^8.4.32",
+        "postcss-cli": "^11.0.0",
+        "postcss-import": "^16.0.0",
+        "postcss-preset-env": "^9.3.0"
+    },
+    "scripts": {
+        "process": "postcss css/index.css -w -m -o style.css"
+    }
 }
