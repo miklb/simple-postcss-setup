@@ -12,6 +12,6 @@
         "postcss-preset-env": "^9.3.0"
     },
     "scripts": {
-        "process": "postcss css/index.css -w -m -o style.css"
+        "css": "postcss css/index.css -w -m -o style.css"
     }
 }
